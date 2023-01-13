@@ -1,3 +1,5 @@
+# Bash script to install rootless Docker on Ubuntu 20.04 LTS
+
 apt-get update -y && \
   apt-get -y install \
   iptables \
