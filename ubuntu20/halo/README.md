@@ -25,3 +25,12 @@ You can attach to the container by doing:
     
     
 Note: While using a variable (i) lets us set things like the container name, the actual public destination port will be randomly assigned by the Linux kernel.
+
+
+# Scripting
+
+For running testuser Docker scripts from outside the testuser account you'll want to incude the same function we put into .bashrc at the top of your script:
+
+    docker() {
+    su - testuser -c "docker $*"
+    }
