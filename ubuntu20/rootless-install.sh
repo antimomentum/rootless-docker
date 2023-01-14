@@ -3,7 +3,6 @@
 apt-get update -y && \
   apt-get -y install \
   iptables \
-  bash \
   sudo \
   curl \
   nano \
