@@ -23,7 +23,9 @@ You can attach to the container by doing:
 
     docker attach --detach-keys z 2308
     
-    
+
+Press z to detach from the contianer without closing it.
+
 Note: While using a variable (i) lets us set things like the container name, the actual public destination port will be randomly assigned by the Linux kernel.
 
 
