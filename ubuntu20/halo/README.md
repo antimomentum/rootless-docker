@@ -6,7 +6,7 @@ Pull the wineconsole image:
     docker pull wineconsole/halo
 
 
-Assumes you've installed rootless docker and have a folder named "halopull" containing your Halo server files. It is recommended to give testuser ownership of the halopull directory and files, like the pull.sh script does. It is recommended you install ipset and run the firewall.sh rules before usng the following command:
+Assumes you've installed rootless docker and have a folder named "halopull" containing your Halo server files. It is recommended to give testuser ownership of the halopull directory and files, like chown in the pull.sh script does. It is recommended you install ipset and run the firewall.sh rules before using the following command:
 
 
     docker run -v /home/testuser/halopull:/game \
