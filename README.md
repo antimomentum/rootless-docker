@@ -28,7 +28,7 @@ You'll see a bunch of output regardless if it works. You can test Docker by doin
     docker pull hello-world
 
 
-If it says "Unable to find image locally" that means Docker is running. Give it a moment, it should also be able to fetch the image from Docker's registry as well. If it pulls the image you can actually log out of testuser now, as the installer script should have setup an alias to use docker from testuser:
+If it says "Using default tag:latest" or "Unable to find image locally" that means Docker is running. Give it a moment, it should also be able to fetch the image from Docker's registry as well. If it pulls the image you can actually log out of testuser now, as the installer script should have setup an alias to use docker from testuser:
 
 
     logout
