@@ -1,4 +1,4 @@
-cat <<TUSH >~/.bashrc
+cat <<TUSH >>~/.bashrc
 halo() {
     echo "\$*" >> /home/testuser/test.txt
 }
