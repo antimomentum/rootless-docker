@@ -1,5 +1,10 @@
-# rootless-docker
-Various scripts for different apps in rootless Docker.
+First, confirm you do NOT have Docker installed yet:
+
+
+    docker -v
+
+
+You should see command not found. If command is not found go ahead and run the rootless-installer.sh script to get started.
 
 
 # Example usage after running the installer for Ubuntu 20.04 LTS:
