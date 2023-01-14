@@ -7,4 +7,4 @@ mv halopull /home/testuser/ && \
 chown -R testuser: /home/testuser/halopull && \
 wget https://raw.githubusercontent.com/antimomentum/haloce/master/firewalls/firewall.sh && \
 chmod +x firewall.sh && \
-mv firewall.sh $HOME/firewall.sh
+cp firewall.sh $HOME/firewall.sh
