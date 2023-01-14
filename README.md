@@ -4,7 +4,7 @@ First, confirm you do NOT have Docker installed yet:
     docker -v
 
 
-You should see command not found. If command is not found go ahead and run the rootless-installer.sh script to get started. It is based on the Docker documents for rootless Docker:
+You should see command not found. If command is not found go ahead and run the rootless-install.sh script to get started. It is based on the Docker documents for rootless Docker:
 
 https://docs.docker.com/engine/security/rootless/
 
