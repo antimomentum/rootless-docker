@@ -25,4 +25,12 @@ sudo -i -u testuser sh -c 'echo "export XDG_RUNTIME_DIR=/home/testuser/.docker/r
 sudo -i -u testuser sh -c 'echo "export PATH=/home/testuser/bin:$PATH" >> .bashrc'
 sudo -i -u testuser sh -c 'echo "export DOCKER_HOST=unix:///home/testuser/.docker/run/docker.sock" >> .bashrc'
 wait
+
+
+cat <<WUSH >>$HOME/.bashrc
+docker() {
+    su - testuser -c "docker \$*"
+}
+WUSH
+
 reboot
