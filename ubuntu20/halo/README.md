@@ -1,6 +1,6 @@
 # Example usage for Halo
 
-Assumes you've installed rootless docker. It is recommended you install ipset and run the firewall.sh rules before usng the following command:
+Assumes you've installed rootless docker and have a folder named "halopull" containing your Halo server files. It is recommended you install ipset and run the firewall.sh rules before usng the following command:
 
 
     docker run -v /home/testuser/halopull:/game \
